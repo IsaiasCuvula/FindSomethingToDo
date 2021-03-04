@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">FindSomethingToDo</string>
+    <string name="home">Home</string>
+    <string name="favorite">Favorite</string>
+    <string name="random_activity">Random Activity</string>
+    <string name="image_contentDescription">image</string>
+    <string name="participants">Participants: </string>
+    <string name="price">Price:</string>
+    <string name="type">Type:</string>
+    <string name="accessibility">Accessibility:</string>
+    <string name="activity">Activity:</string>
+    <string name="see_more_details">See more details</string>
+    <string name="home_title">Are you bored? </string>
+    <string name="home_title1">Find something interesting to do. Right Now</string>
+    <string name="no_favorite_added_yet">No Favorite Activity Added Yet</string>
+    <string name="please_wait">Please wait</string>
+    <string name="delete">DELETE</string>
+</resources>
