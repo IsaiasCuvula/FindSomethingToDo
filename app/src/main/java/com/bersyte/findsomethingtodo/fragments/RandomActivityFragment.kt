@@ -52,7 +52,7 @@ class RandomActivityFragment :
             .get(RandomActivityViewModel::class.java)
 
         mRandomActivityViewModel.getRandomActivityFromAPI()
-        randomDishViewModelObserver()
+        randomActivityViewModelObserver()
 
         binding.swipeRefresh.setOnRefreshListener {
             mRandomActivityViewModel.getRandomActivityFromAPI()
@@ -99,7 +99,7 @@ class RandomActivityFragment :
     }
 
 
-    private fun randomDishViewModelObserver() {
+    private fun randomActivityViewModelObserver() {
         mRandomActivityViewModel.randomActivityResponse.observe(
             viewLifecycleOwner, { randomActivity ->
                 randomActivity?.let {

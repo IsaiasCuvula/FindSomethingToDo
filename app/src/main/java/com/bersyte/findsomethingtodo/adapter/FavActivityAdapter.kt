@@ -58,7 +58,7 @@ class FavActivityAdapter(
                 val direction = FavoriteFragmentDirections
                     .actionFavoriteFragmentToActivityDetailsFragment(currAct)
                 mView.findNavController().navigate(direction)
-                (fragment as FavoriteFragment)
+                //(fragment as FavoriteFragment)
             }
 
 

@@ -6,7 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".fragments.FavoriteFragment">
 
-
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rvFavActivity"
         android:layout_width="0dp"
@@ -26,7 +25,6 @@
         android:textSize="25sp"
         android:textColor="@color/black"
         android:textStyle="bold"
-
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

@@ -7,7 +7,7 @@
     tools:context=".fragments.RandomActivityFragment">
 
     <ScrollView
-        android:id="@+id/rl_dish_detail_main"
+        android:id="@+id/rl_act_detail_main"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:fillViewport="true"
@@ -19,7 +19,7 @@
             android:orientation="vertical">
 
             <FrameLayout
-                android:id="@+id/fl_dish_image"
+                android:id="@+id/fl_activity_image"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
